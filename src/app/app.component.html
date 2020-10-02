@@ -1,5 +1,8 @@
 <h1 class="text-center">Html Renderer</h1>
 
 <div *ngIf="rjfArray" class="container">
-    <app-dynamic-elements *ngFor="let ele of rjfArray" [childObject]="ele"></app-dynamic-elements>
+  <app-dynamic-elements
+    *ngFor="let element of rjfArray"
+    [childObject]="element"
+  ></app-dynamic-elements>
 </div>
