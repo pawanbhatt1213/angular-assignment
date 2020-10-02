@@ -1,7 +1,7 @@
-
-  <div class="well">
-    <h1 *ngIf="childObject.type=='heading-1'" [innerHtml]="childObject.text">
-    </h1>
-    <p *ngIf="childObject.type=='paragraph'"[innerHtml]="childObject.text">
-    </p>
-  </div>
+<div class="well">
+  <h1
+    *ngIf="childObject.type == 'heading-1'"
+    [innerHtml]="childObject.text"
+  ></h1>
+  <p *ngIf="childObject.type == 'paragraph'" [innerHtml]="childObject.text"></p>
+</div>
